@@ -1,0 +1,21 @@
+name: Prison
+description: Prison core for AvengeTech
+author: mal0ne_23
+version: 2.0.0
+main: prison\Prison
+api: [5.0.0]
+
+depend:
+- Core
+- MyPlot
+
+permissions:
+ prison.perm:
+  description: Bleh
+  default: true
+ prison.staff:
+  description: Migsmelly
+  default: op
+ prison.tier3:
+  description: Fartnite
+  default: op
